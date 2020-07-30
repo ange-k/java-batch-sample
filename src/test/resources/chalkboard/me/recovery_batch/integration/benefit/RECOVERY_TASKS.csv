@@ -1,0 +1,7 @@
+"ID", "TYPE",           "STATUS", "HOGEID", "PARAMETER", "COUNT", "CREATED_AT"         , "UPDATED_AT",          "UPDATE_USER"
+"1" , "POINT_ROLLBACK", "CREATED",   "HOGE", null,        "0",     "2020-07-01 00:00:00", "2020-07-01 00:00:00", "recovery_batch"
+"2" , "POINT_ROLLBACK", "RUNNING",   "HOGE", null,        "0",     "2020-07-01 00:00:00", "2020-07-01 00:00:00", "recovery_batch"
+"3" , "POINT_ROLLBACK", "RUNNING",   "HOGE", null,        "19",    "2020-07-01 00:00:00", "2020-07-01 00:00:00", "recovery_batch"
+"4" , "POINT_ROLLBACK", "COMPLETION","HOGE", null,        "1",     "2020-07-01 00:00:00", "2020-07-01 00:00:00", "recovery_batch"
+"5" , "POINT_ROLLBACK", "FAULTED",   "HOGE", null,        "1",     "2020-07-01 00:00:00", "2020-07-01 00:00:00", "recovery_batch"
+"6" , "POINT_ROLLBACK", "RUNNING",   "HOGE", null,        "20",    "2020-07-01 00:00:00", "2020-07-01 00:00:00", "recovery_batch"

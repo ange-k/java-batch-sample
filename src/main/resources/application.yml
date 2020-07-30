@@ -1,0 +1,15 @@
+---
+spring:
+  profiles:
+    active: dev
+extension:
+  db:
+    oracle-url: jdbc:oracle:thin:@(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = hoge.co.jp)(PORT = 50000))(CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = sv_gmtrprd)(FAILOVER_MODE = (TYPE = SELECT)(METHOD = BASIC)(RETRIES = 30)(DELAY = 5))))
+    oracle-username: recovery_batch
+    oracle-password: ${oracle.password:}
+  api:
+    benefit:
+      host-name: http://example.com
+      connection-timeout: 3500
+      socket-time-out: 8500
+      cancel-path: /v1/point/cancel
